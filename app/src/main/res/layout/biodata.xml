@@ -19,6 +19,7 @@
         android:textSize="35sp"
         android:textStyle="bold"
         android:layout_marginBottom="20dp"
+        android:layout_marginTop="25dp"
         />
 
     <ImageView
@@ -69,7 +70,7 @@
         />
 
     <Button
-        android:id="@+id/buttonHome"
+        android:id="@+id/btnBack"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="KEMBALI"

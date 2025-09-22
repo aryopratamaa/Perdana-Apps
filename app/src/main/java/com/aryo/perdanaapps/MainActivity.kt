@@ -1,13 +1,10 @@
 package com.aryo.perdanaapps
 
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import android.widget.Button
 import android.content.Intent
 import android.widget.Toast
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -32,8 +29,6 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, Biodata::class.java)
             startActivity(intent)
         }
-
-
 
     }
 }
