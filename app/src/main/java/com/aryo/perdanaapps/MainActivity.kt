@@ -29,6 +29,5 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, Biodata::class.java)
             startActivity(intent)
         }
-
     }
 }
