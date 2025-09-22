@@ -26,7 +26,8 @@
         android:layout_height="100dp"
         android:layout_gravity="center"
         android:layout_marginBottom="24dp"
-        android:src="@drawable/ic_launcher_background" />
+        android:src="@drawable/image"
+        />
 
     <TextView
         android:layout_width="match_parent"
@@ -44,6 +45,7 @@
         android:textSize="25sp"
         android:textStyle="bold"
         android:layout_marginBottom="8dp"
+        />
 
     <TextView
         android:layout_width="match_parent"
