@@ -2,6 +2,7 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/main"
     android:layout_width="match_parent"
@@ -14,58 +15,65 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="BIODATA"
+        android:text="PERDANA APPS"
         android:textAlignment="center"
         android:textSize="35sp"
         android:textStyle="bold"
         android:layout_marginBottom="20dp"
+        android:layout_marginTop="25dp"
         />
 
     <ImageView
-        android:id="@+id/imageViewProfile"
+        android:id="@+id/imageViewIcon"
         android:layout_gravity="center"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginBottom="20dp"
-        android:src="@drawable/image"
+        android:src="@drawable/icon"
         android:contentDescription="Profile Image"
         android:scaleType="centerCrop"
         />
 
-    <TextView
+    <Button
+        android:id="@+id/btnHome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nama           : ARYO PRATAMA"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:layout_marginBottom="8dp"
-        />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="WhatsApp   : 0821 6196 5317"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:layout_marginBottom="8dp"
-        />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Alamat         : Batu Bara"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:layout_marginBottom="8dp"
+        android:text="HOME"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
         />
 
     <Button
+        android:id="@+id/buttonGoToBiodata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BIODATA"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <Button
+        android:id="@+id/btnSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PENGATURAN"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <Button
+        android:id="@+id/btnKeluar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="KELUAR"
         android:textSize="20sp"
         android:padding="10dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="5dp"
         />
+
+
 
   </LinearLayout>
