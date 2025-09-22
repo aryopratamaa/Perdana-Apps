@@ -14,6 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="BIODATA"
+        android:textColor="@color/black"
         android:textAlignment="center"
         android:textSize="35sp"
         android:textStyle="bold"
@@ -35,8 +36,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nama              : ARYO PRATAMA"
-        android:textSize="25sp"
+        android:text="Nama                : ARYO PRATAMA"
+        android:textSize="20sp"
         android:textStyle="bold"
         android:layout_marginBottom="8dp"
         />
@@ -44,8 +45,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="WhatsApp      : 0821 6196 5317"
-        android:textSize="25sp"
+        android:text="WhatsApp        : 0821 6196 5317"
+        android:textSize="20sp"
         android:textStyle="bold"
         android:layout_marginBottom="8dp"
         />
@@ -53,8 +54,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Alamat            : Batu Bara"
-        android:textSize="25sp"
+        android:text="Alamat              : Batu Bara"
+        android:textSize="20sp"
         android:textStyle="bold"
         android:layout_marginBottom="8dp"
         />
@@ -62,8 +63,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Tanngal Lahir : 04 Agustus 2025"
-        android:textSize="25sp"
+        android:text="Tanngal Lahir  : 04 Agustus 2025"
+        android:textSize="20sp"
         android:textStyle="bold"
         android:layout_marginBottom="8dp"
         />
