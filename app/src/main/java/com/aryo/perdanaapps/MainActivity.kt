@@ -12,14 +12,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val btnHome = findViewById<Button>(R.id.btnHome)
-        val btnSettings = findViewById<Button>(R.id.btnSettings)
+
         val btnKeluar = findViewById<Button>(R.id.btnKeluar)
         btnHome.setOnClickListener {
             Toast.makeText(this, "Home ditekan", Toast.LENGTH_SHORT).show()
         }
-        btnSettings.setOnClickListener {
-            Toast.makeText(this, "Settings ditekan", Toast.LENGTH_SHORT).show()
-        }
+
         btnKeluar.setOnClickListener {
             finishAffinity()
         }
@@ -29,5 +27,12 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, Biodata::class.java)
             startActivity(intent)
         }
+
+        val btnPengaturan = findViewById<Button>( R.id.btnPengaturan)
+        btnPengaturan.setOnClickListener {
+            val intent = Intent(this, PengaturanActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 }

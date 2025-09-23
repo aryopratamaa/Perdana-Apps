@@ -21,6 +21,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Biodata" />
+        <activity android:name=".PengaturanActivity" />
     </application>
 
 </manifest>
